@@ -36,7 +36,7 @@ export const FeedbackContentStep = ({
       //   comment,
       // }),
 
-      await api.post('http://localhost:3333/feedbacks', {
+      await api.post('/feedbacks', {
         type: feedbackType,
         comment,
         screenshot,
